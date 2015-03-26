@@ -13,4 +13,4 @@ Software for a FreeScale microcontroller to run a 4-axis 3D printer. For Tenness
 
 `acceleration.h`
 
-`line.h`  function to drive to points
+`line.h`  functions to drive to specific points
