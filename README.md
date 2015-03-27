@@ -1,16 +1,14 @@
 #dragon12-3dprinter
 Software for a FreeScale microcontroller to run a 4-axis 3D printer. For Tennessee Tech's ME 4370, Intro to Mechatronics class.
 
-##Subdivisions of 3D Printer Program
+##Subdivisions of 3D Printer Program - Branches
 
-`main.c`  meat of program that calls predefined functions
+`master`  the branch all the other branches will eventually merge into
 
-`serial.h`  defines funcitons for talking to the computer
+`serial`  the branch that defines funcitons for talking to the computer over serial (maybe in a separate serial.h file)
 
-`interpreter.h`  functions to interpret the gcode and call appropriate funcitons
+`interpreter`  the branch that works with translating the gcode into funciton calls (some of this might end up in main.c)
 
-`homing.h`  functions to self-calibrate/return to home
+`homing`  the branch that defines functions for self-calibrate/return to home
 
-`acceleration.h`
-
-`line.h`  functions to drive to specific points
+`movement`  the branch that defines functions for moving the head
